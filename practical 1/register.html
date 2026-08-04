@@ -1,53 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Registration</title>
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-
 <h1>Student Registration</h1>
-
 <nav>
-
 <a href="index.html">Home</a>
-
 </nav>
-
-<hr>
-
 </header>
 
 <main>
-
 <form>
+<label>Name</label>
+<input type="text">
 
-<label>Name</label><br>
-<input type="text"><br><br>
+<label>Email</label>
+<input type="email">
 
-<label>Email</label><br>
-<input type="email"><br><br>
+<label>Mobile</label>
+<input type="tel">
 
-<label>Mobile</label><br>
-<input type="tel"><br><br>
-
-<label>Password</label><br>
-<input type="password"><br><br>
+<label>Password</label>
+<input type="password">
 
 <input type="submit" value="Register">
-
 </form>
-
 </main>
 
-<hr>
-
 <footer>
-
+<hr>
 <p>Student Hub</p>
-
 </footer>
 
 </body>
